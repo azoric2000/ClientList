@@ -1,0 +1,55 @@
+<section id="masterList" class="col-sm-3">
+	<div class="container"> </div>
+ 
+	<div class="formWrapper">
+		<form class="filterform">
+		 
+				<input type="text" placeholder="Filter clients by name" class="filterinput filterinput form-control col-sm-2">
+				<input type="reset" value="X" id="xbutton" class="form-control col-sm-2 btn-danger active">
+			 
+		</form>
+				<!-- 
+				<form class="filterform">
+			<div class="form-group row">
+				<input  type="text" placeholder="Filter clients by name" class="filterinput form-control col-sm-2 ">
+				<input type="reset" value="X" id="xbutton" class="form-control col-sm-2btn-secondary  active">
+			</div>
+		</form>
+		-->
+	 </div>
+	 	<div id="clientMetaData">
+
+		</div>
+		<div class="listWrapper">
+			<img src="images/ban.gif">  
+			<p>Loading....</p>
+			<p> if this banana keeps dancing for more than five minutes please contact your administrator... or get some ice cream and hot fudge and have a Sunday!</p>
+
+		</div>
+	</section>
+
+	<section id="results" class="col-sm-9">
+	<button id="reset" class="btn btn-block btn-primary">Clear All</button>
+	<div class="container"> </div>
+	
+	<!-- button id="refresh" class="btn  btn-lg btn-primary btn-block">Refresh</button -->
+	<div id="featureList">
+
+ 
+
+	</div> 
+	</section>
+	<script>
+		$(document).ready(function(){
+			 
+			LIST.resetButton(); 
+			console.log('Client page loaded');
+			LIST.loadClients();
+			console.log('Client List loaded');
+//			$.getJSON('clients.json', function(json) {
+//			    console.log(json); // this will show the info it in firebug console
+//			});
+		});
+
+
+	</script>

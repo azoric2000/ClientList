@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Client List</title>
+		<link REL="StyleSheet" TYPE="text/css" HREF="css/styles.css">
+		<link REL="StyleSheet" TYPE="text/css" HREF="css/bootstrap.css">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:900" rel="stylesheet">
+	</head>
+	<body>
+	<header id="header" class="container">
+		<h1> Client List</h1>
+		<div class="form-group">
+
+		</div>
+	</header >
+
+		<div class="container">
+		 	<ul class="nav nav-tabs list-inline ">
+		 		<p id="select">
+		  			 	<div class="form-group">
+		  				  <label> Enivronment:
+		  					<select id="env" class="form-control">
+
+							   <!--  <option>CERT</option>
+							    <option>UAT</option> -->
+							    <option>SIT</option>
+							    <option>DEV</option>
+							</select>
+						  </label>
+					 	</div>
+				</p>
+				<li id="client" data-target="client.html" class="active"> <a>By Client</a> </li>
+		  		<li id="feature" data-target="feature.html"><a>By Feature</a> </li>
+		  		<li id="info" data-target="information.html"> <a>Help & How to...</a> </li>
+
+
+		  	</ul>
+		  	<div class="container" id="target">
+
+			</div>
+		<footer>
+			 	&copy; <span id="year"> </span> Alliance Data Systems Inc.  All Rights reserved.
+		</footer>
+		</div>
+
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</html>

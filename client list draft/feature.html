@@ -1,0 +1,34 @@
+<section id="masterList" class="col-sm-3">
+	<div class="container"> </div>
+	<button id="selectAll" class="btn btn-lg btn-block btn-secondary">Select All</button>
+	<button id="reset" class="btn btn-lg btn-block btn-secondary">Reset</button>
+	<ul>
+		<li> Lorem ipsum 			<input  value="Lorem" data-label="Lorem ipsum " type="checkbox"/></li>
+		<li> dolor sit amet,  		<input value="dolor" data-label="dolor sit amet" type="checkbox"/></li>
+		<li> conectetur adipiscing elit. <input value="conectetur" data-label="conectetur adipiscing elit." type="checkbox"/></li>
+		<li> Nunc nec mauris est. 	<input value="Nunc" data-value="Nunc nec mauris est." type="checkbox"/></li>
+		<li> Proin at diam ex.  	<input value="Proin" data-value="Proin at diam ex. " type="checkbox"/></li>
+		<li> Pellentesque a  		<input value="Pellentesque a   " type="checkbox"/></li>
+		<li> condimentum odio, ac  	<input value="condimentum odio, ac  " type="checkbox"/></li>
+		<li> vestibulum velit.  	<input value="estibulum velit. " type="checkbox"/></li>
+		<li> Ut mollis velit nec  	<input value="Ut mollis velit nec " type="checkbox"/></li>
+		<li> condimentum odio, ac  	<input value="ondimentum odio, ac  " type="checkbox"/></li>
+		<li> vestibulum velit.  	<input value="vestibulum velit.   " type="checkbox"/></li>
+		<li> Ut mollis velit nec  	<input value="Ut mollis velit nec  " type="checkbox"/></li>
+	</ul>
+	</section>
+
+	<section id="results" class="col-sm-8">
+	<div class="container"> </div>
+	<div id="breadcrumb"></div>
+	<button id="refresh" class="btn  btn-lg btn-primary btn-block">Refresh</button>
+	Some other stuff goes here 
+	</section>
+	<script>
+		$(document).ready(function(){
+			LIST.selectAll();
+			LIST.resetButton();
+			LIST.breadcrumbing();
+			console.log('Client page loaded')
+		});
+	</script>

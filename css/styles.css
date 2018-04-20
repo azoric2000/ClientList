@@ -1,0 +1,249 @@
+ 
+
+body {
+	background-color: #e6e6e6 !important;
+}
+
+section{
+	border: solid 1px #ddd;	
+	border-radius: 4px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(128,128,128,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(128,128,1280.75);
+	box-shadow: 10px 10px 5px 0px rgba(128,128,128,0.75);
+	margin: 15px 0;
+	background-color: #FFF; 
+	height: 669px !important;
+	padding-top: 15px;    
+}
+
+  section:first-child{
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px; 
+}
+
+
+  section + section{
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px; 
+	margin-left: -1px;
+}
+
+.nav-tabs a {
+	border: #fff;
+	background-color: #d9d9d9;
+	border-bottom: solid 2px #e6e6e6;
+	cursor: pointer;
+}
+.nav-tabs label {
+	margin: 0;
+	color: #337ab7; 
+	font-weight: normal;
+	padding: 4px;
+	margin-right: 50px;
+}
+
+#target{
+    background-color: #fff;
+    border: solid 1px #ddd;
+    margin: -1px 0px 0 -10px;
+    border-radius: 4px;
+    padding-bottom: 25px;
+}
+
+.listWrapper { 
+	overflow-y: auto;
+    height: 597px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.listWrapper img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+}
+.listWrapper label {  
+    display: inline-block;
+    cursor: pointer; 
+    padding: 10px 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.listWrapper p {
+	text-align: center;
+}
+
+#wrapper {
+	margin-top: 62px;
+	width: 900px;  
+	max-width: 900px;
+	background-color: #e6e6e6; 
+	border: solid 1px #000;
+	border-radius: 10px;
+	margin:0 auto;
+	display: block;
+}
+
+#infotext {
+	padding: 15px;
+	overflow-y: auto;
+}
+
+input[type='checkbox']  {
+    float: left;
+    margin-right: 10px;
+    width: 43px;
+    height: 20px;
+    margin-right: 25px;
+    margin-top: 4px !important;
+}
+
+#results{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#masterList {
+	padding: 15px 0 0 0 !important;
+}
+
+#masterList li {   
+ list-style: none;
+ border-bottom: solid 1px #006598;
+}
+
+#masterList #features li {
+	 font-weight: bold;
+    height: 42px;
+    line-height: 31px;
+    padding-left: 20px;
+
+}
+ 
+#masterList li:hover {
+	cursor:pointer;
+	background-color: #F1AB00;
+}
+
+#breadcrumb div {
+	display: inline-block; margin-right:15px;
+}
+
+#clientMetaData {
+	text-align: center;
+	clear: both;
+}
+
+
+.featureheader span {
+	width: 33.2%;
+	border: solid 1px #ddd;
+	display: inline-block; 
+	margin-left: -1px;
+	padding: 8px; 
+	margin-top: -1px;
+	border-radius: 3px;
+
+} 
+
+.featurebody span {
+	width: 50%;
+	border: solid 1px #333300;
+	display: inline-block; 
+	margin: -1px 0 0 -1px;
+	padding: 5px;
+}
+
+.clientBlock{
+	margin: 20px 0 10px 0px;
+    border-left: 10px solid #f00;
+    padding-left: 14px;
+}
+
+ 
+.formWrapper {
+	padding: 2px 15px;
+}
+
+.formWrapper input[type='text']  {
+	width: 83%;
+}
+
+
+.formWrapper input[type='reset']  {
+	width: 18%;
+	margin-left: -5px; 
+}
+
+.yes {
+	background-image:url(../images/yesno.png);
+	background-position: 0%;
+	background-size:90px;
+	background-repeat: no-repeat;
+	width: 30px !important;
+    display: inline-block;
+    height: 30px;
+    margin: -5px 0 0 0; 
+    position: absolute;
+}
+
+
+.no {
+	background-image:url(../images/yesno.png);
+	background-position: 50%;
+	background-size:90px;
+	background-repeat: no-repeat;
+	width: 30px !important; 
+    display: inline-block;
+    height: 30px;
+    margin: -5px 0 0 0; 
+    position: absolute;
+}
+
+.min {
+	float: right;
+	background-image:url(../images/yesno.png);
+	background-position: 100%;
+	background-size:90px;
+	background-repeat: no-repeat;
+	width: 30px !important; 
+    display: inline-block;
+    height: 30px;
+    margin: 0px 10px 0 0;
+    position: relative;
+    cursor: pointer;
+}
+.min:hover {
+	opacity: 0.75;
+}
+
+.key { margin-left: 36px}
+
+header h1 {  
+	font-family: 'Work Sans', sans-serif;
+    margin-top: 40px;
+}
+
+header img {
+	float: right;
+    height: 140px;    
+    margin: 0 46px -40px;	
+}
+
+.btn-primary{ background-color: #006598; }
+footer {text-align: right; border-top: solid 1px #999; margin-top: 20px;}
+
+.form-control {
+width:auto;
+display:inline-block;
+}
+.form-group label {
+    float: left;
+    text-align: left;
+    font-weight: normal;
+}
+
+.form-group select {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
